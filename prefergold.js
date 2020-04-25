@@ -1,7 +1,5 @@
 Hooks.once("ready", async function () {
 
-    console.log("%cLoading Prefer Gold", "color:red");
-
     game.dnd5e.Actor5e.prototype.convertCurrency = function () {
         const curr = duplicate(this.data.data.currency);
 
